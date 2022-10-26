@@ -7,7 +7,9 @@ const wordB = prompt("Inserisci la seconda parola!");
 
 
 if (wordA.length > wordB.length) {
+    console.log(wordB, wordA);
+} else if{
     console.log(wordA, wordB);
 } else {
-    console.log(wordB, wordA);
+    console.log("le parole hanno la stessa lunghezza")
 }
