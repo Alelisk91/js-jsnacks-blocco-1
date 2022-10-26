@@ -6,7 +6,7 @@ const wordA = prompt("Inserisci la prima parola!");
 const wordB = prompt("Inserisci la seconda parola!");
 
 
-if (wordA.length > wordB.lenght) {
+if (wordA.length > wordB.length) {
     console.log(wordA, wordB);
 } else {
     console.log(wordB, wordA);
