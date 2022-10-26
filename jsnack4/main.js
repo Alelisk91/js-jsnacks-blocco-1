@@ -2,18 +2,24 @@
 chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
 */
 
-"use strict"
 
 //chiedi all'utente il suo nome e cognome
 const nameSurname = ["Mario Bianchi", "Luca Rossi", "Marco Verdi"];
 
 const userName = prompt("Scrivi il tuo nome e cognome");
 
+let found = false;
+
 for (let i = 0; i < nameSurname.length; i++){
+
     if (userName === nameSurname[i]){
-        alert("sei invitato");
+
+        found = true;
+
+        break;
     } else {
-        alert("non sei invitato");
+
+        break;
     }
 }
 console.log(userName, alert)
