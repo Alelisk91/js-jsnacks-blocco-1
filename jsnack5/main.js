@@ -10,6 +10,7 @@ for (let i = 0; i < 6; i++) {
 
     if(userRequest % 2 === 1) {
         arrayEmpty.push(userRequest);
-        console.log(arrayEmpty);
     }
 }
+
+console.log(arrayEmpty);
